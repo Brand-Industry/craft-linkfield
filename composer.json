@@ -1,6 +1,6 @@
 {
-  "name": "sebastianlenz/linkfield",
-  "description": "A Craft field type for selecting links",
+  "name": "brand-industry/craft-linkfield",
+  "description": "A Craft field type for selecting links (Support by brand industry - internal use)",
   "type": "craft-plugin",
   "license": "MIT",
   "require": {
@@ -15,7 +15,9 @@
     "phpunit/phpunit": "^7.5 || ^8.0"
   },
   "autoload": {
-    "classmap": ["legacy"],
+    "classmap": [
+      "legacy"
+    ],
     "psr-4": {
       "lenz\\linkfield\\": "src/"
     }
@@ -23,8 +25,8 @@
   "extra": {
     "handle": "typedlinkfield",
     "name": "Typed link field",
-    "developer": "Sebastian Lenz",
-    "developerUrl": "https://github.com/sebastian-lenz/"
+    "developer": "Brand Industry",
+    "developerUrl": "https://github.com/Brand-Industry"
   },
   "scripts": {
     "test": "./vendor/bin/phpunit ./tests",
